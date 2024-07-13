@@ -1,39 +1,45 @@
-# ChatGPT Writer Take-Home Coding Assignment
 
-https://chatgptwriter.ai
+# Plasmo React Extension for LinkedIn
 
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with command: `pnpm create plasmo --with-tailwindcss`.
+This is a sample chrome extension made using Plasmo to generate replies for a LinkedIn message. currently it is not using AI and generates hardcoded reply
 
-## Getting Started
 
-1. Install dependencies: `pnpm i` or `pnp i`
+## Tech Stack
 
-2. Run the development server:
+**Client:** React, Typescript, TailwindCSS, Plasmo
 
-```bash
-pnpm dev
-# or
-npm run dev
-```
 
-See how to load the extension: https://docs.plasmo.com/framework/workflows/dev#loading-the-extension
 
-For further guidance, [visit our Documentation](https://docs.plasmo.com/).
 
-## Where to edit?
 
-- The main code is located in src/content.tsx. By default, when you run the extension, it displays a static count button on the LinkedIn website. You need to replace it with your own code.
+## Run Locally
 
-![count btn on linkedin](count_btn_on_linkedin.png)
-
-## Making production build
-
-Run the following:
+Clone the project
 
 ```bash
-pnpm build
-# or
-npm run build
+  git clone https://github.com/abhinavkr2108/linkedin-chrome-extension
 ```
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+Go to the project directory
+
+```bash
+  cd linkedin-chrome-extension
+```
+
+Install dependencies
+
+```bash
+  pnpm install
+```
+
+Start the server
+
+```bash
+  pnpm dev
+```
+
+
+## View Project
+
+View the live url of the project : 
+https://www.loom.com/share/b96b135a0cf446c6bd64fec685f909d4?sid=59a2d82c-c08d-4c2e-bf9e-94d593d6548c
